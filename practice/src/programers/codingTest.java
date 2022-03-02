@@ -12,7 +12,6 @@ public class codingTest {
 		String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
 		int k = 2;
 		
-		
 		solution(id_list, report, k);
 	}
 	
