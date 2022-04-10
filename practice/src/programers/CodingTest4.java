@@ -5,10 +5,9 @@ public class CodingTest4 {
 	public static void main(String[] args) {
 		//programmers 신규 아이디 추천
 		
-		solution("...!@BaT#*..y.abcdefghijklm");
 	}
 	
-	static public String solution( String user_id ) {
+	public String solution( String user_id ) {
 		String temp = "";
 		
 		// 1. new_id의 모든 대문자를 대응되는 소문자로 치환합니다.

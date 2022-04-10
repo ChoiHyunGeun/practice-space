@@ -7,10 +7,12 @@ public class CodingTest3 {
 		int[] lottos = {0, 0, 0, 0, 0, 0};
 		int[] win_nums = {38, 19, 20, 40, 15, 25};
 		
-		solution( lottos, win_nums );
+		CodingTest3 test = new CodingTest3();
+		
+		test.solution( lottos, win_nums );
 	}
 	
-	static public int[] solution( int[] lottos, int[] win_nums) {
+	public int[] solution( int[] lottos, int[] win_nums) {
 		//return 시킬 int 배열
 		int[] result = new int[2];
 		
